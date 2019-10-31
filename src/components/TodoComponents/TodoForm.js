@@ -26,7 +26,7 @@ class TodoForm extends React.Component {
                     type='text'
                     value={this.chores}
                     name='task'
-                    onChange={this.handleChange}
+                    onChange={this.handleChanges}
                 />
                 <button>Add Task</button>
             </form>
